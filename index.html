@@ -28,6 +28,10 @@
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
+        html {
+    overflow-x: hidden;
+}
+
         body {
             font-family: 'Poppins', sans-serif;
             background: var(--light);
@@ -352,6 +356,17 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
+
+    body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--light);
+    color: var(--secondary);
+    line-height: 1.5;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;  /* ← Ajoute cette ligne */
+}
+    
 <body>
 
     <div class="container">
